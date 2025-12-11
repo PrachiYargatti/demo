@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="loginForm.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <form class="login-form" id="form">
+            <h1 class="heading">Login</h1>
+
+            <div class="email-container">
+                <label for="email" class="label">Email:</label>
+                <input id="email" type="text" placeholder="Enter email" class="input">
+            </div>
+
+            <div class="pass-container">
+                <label for="pass" class="label">Password:</label>
+                <input id="pass" type="password" placeholder="Enter password" class="input">
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" class="checkbox" id="check">
+                <label for="check">Show password</label>
+            </div>
+
+            <button type="submit" class="sign-in-btn" id="signInBtn">SIGN IN</button>
+            <p id="warningMessage"></p>
+        </form>
+
+        <p id="warningMessage"></p>
+    </div>
+
+    <script src="loginForm.js"></script>
+</body>
+</html>
